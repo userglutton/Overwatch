@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* section begin */
+section{background:url(../images/bg.jpg) no-repeat #121315;height:100%;width: 100%;}
+/* header begin */
+header{height:180px;}
+/* header end */
+
+/* article begin */
+article{}
+article #center{width: 70%;margin:0 auto;overflow:hidden;}
+article .pic{display:inline-block;box-sizing:border-box;float:left;width:50%;cursor:pointer;border:3px solid #8C6C62;border-radius:6px;overflow:hidden;}
+article .pic:hover{border:3px solid rgba(255,255,255,0.8);}
+.pic img{width: 100%;height: 100%;border-radius:3px;}
+.pic i{display:block;height:30px;background:rgba(0,0,0,0.5);position:absolute;bottom:0;left:0;width: 95%;line-height:30px;padding-left:5%;font-size:17px;color:#fff;}
+.con{width: 100%;height:150px;padding-top:20px;clear:both;border-bottom:1px solid #2D2B2C;}
+.conDt{float:left;}
+.con:hover{background:rgba(0,0,0,.2);}
+.img{width: 260px;height: 130px;border-radius:6px;}
+.img:hover{border:3px solid #fff;cursor:pointer;}
+.conDd1{font-size:18px;color:#fff;padding-left:275px;height:35px;line-height:35px;}
+.conDd2{color:#fff;padding-left:275px;height:20px;line-height:20px;}
+.conDd3{color:#fff;padding-left:275px;height:20px;line-height:20px;cursor:pointer;}
+#more{width: 245px;height: 43px;border:3px solid #fff;margin:0 auto;text-align:center;cursor:pointer;font-size:28px;margin-top:80px;line-height:43px;color:#fff;}
+#more:hover{background:#fff;color:#000;}
+/* articlle end */
+
+/* footer begin */
+
+/* footer end */
+
+/* section end */

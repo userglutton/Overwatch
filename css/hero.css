@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* CSS Document */
+section{background:url(../images/heroBg.jpg) no-repeat #121315;height:100%;width: 100%;}
+
+section header{height:180px;}
+/* article begin */
+article #center{width:1190px;margin:0 auto;}
+article #title{font-size:66px;color:#405275;text-shadow:2px 2px 2px #666;font-style:italic;height:127px;line-height: 127px;}
+article #title2{font-size:28px;height:36px;line-height:36px;color:#405275;}
+article #kind{margin-top:55px;height:44px;color:#405275;}
+article #kind1{background:#fff;margin-bottom:51px;transition:0.4s;height:44px;width:227px;text-align:center;float:left;font-size:15px;line-height:44px;margin-right:2px;border-radius:5px;cursor:pointer;}
+article .HerokindList{margin-bottom:51px;transition:0.4s;height:44px;width:227px;background:rgba(255,255,255,0.3);text-align:center;float:left;font-size:15px;line-height:44px;margin-right:2px;border-radius:5px;cursor:pointer;}
+article .HerokindList:hover{background:#fff;transition:0.4s;}
+
+article #herolist{height:1200px;}
+article .herolistcon{margin-bottom:10px;height:266px;width:153px;border:2px solid #fff;margin-right:9px;position:relative;float:left;cursor:pointer;background-image:-webkit-linear-gradient(top,
+	rgba(1,193,252,.5) 0%,
+	rgba(255,255,255,.1) 80%,
+	rgba(255,255,255,0) 70%);}	
+article .herolistcon:hover .herolistwd{color:#1E3661;background:#fff;transition:0.6s;}
+article .herolistwd{transition:0.6s;font-size:31px;color:rgba(255,255,255,0.8);background:rgba(71,84,134,0.8);display:block;width:100%;height:58px;padding-top:26px;line-height:58px;text-align:center;position:absolute;bottom:0;left:0;font-style:italic;}
+article .herolistpic{width:100%;}
+
+
+/* article end */

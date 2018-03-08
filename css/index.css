@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/* CSS Document */
+/* section begin */
+
+/* header begin */
+header{height:100vh;background:none;}
+
+header .newsBest{position:absolute;bottom:20px;left:0;height:20%;width:95%;overflow:hidden;}
+header .newsBest .flex-item{display:flex;justify-content:flex-end;height:100%;}
+header .newsBest .flex-item img{height:100%;}
+/* header end */
+
+/* article begin */
+article{height: 100%;width: 100%;}
+article .bg{height:100%;width:100%;position:fixed;bottom:0;left:0;background:url(../images/download.jpg) no-repeat;z-index: -9999;background-size:100%;}
+article .news{width: 100%;height:510px;background:#fff;}
+article .news .newsNitice{margin:0 auto; width: 120px;height:100px;line-height:100px;font-size:28px;color:#405275;}
+article .news #newsCon{margin:0 auto;height: 249px;width: 1190px;}
+article .news #newsCon #pic{position:relative;float:left;width: 570px;height: 249px;margin-right:25px;cursor:pointer;}
+#pic img{width: 570px;height: 249px;}
+#pic i{display:block;height:54px;background:rgba(0,0,0,0.5);position:absolute;bottom:0;left:0;width: 95%;line-height:54px;padding-left:5%;font-size:17px;color:#fff;}
+article .news .lookNews{width: 303px;height: 43px;border:3px solid #00A5E2;font-weight:800;color:#00A5E2;margin:0 auto;line-height:43px;font-size:27px;text-align:center;margin-top:43px;}
+article .news .lookNews:hover{cursor: pointer;background:#00A5E2;color:#fff;}
+article .future{height:690px;width: 100%;background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fcairo-desktop.jpg) no-repeat center center; background-size:cover;}
+article .future ul.futruePic{display:none;}
+article .future ul.futrueWd{width:1000px;margin:0 auto;height: 80%;font-size:20px;text-align:center;color:#fff;text-shadow: 2px 2px 2px #333;line-height:55px;}
+article .future ul.futrueWd>i{font-size:60px;line-height:150px;}
+article .future .search{margin:0 auto;width: 197px;height: 50px;text-align:center;line-height:50px;background:#FF9C00;margin-top:20px;border-radius:3px;cursor:pointer;color:#fff;font-size:26px;font-weight:800;}
+article .future .search:hover{background:#FFB033;}
+article #hero{height:1160px;background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fcandy.jpg) no-repeat #fff;}
+article #hero #heroWd{width: 733px;height:285px;margin:0 auto;text-align:center;padding-top:95px;}
+article #heroi{display:block;font-size:60px;color:#3C5A83;text-shadow:2px 2px 2px  #666;height:70px;line-height:70px;}
+article #heroCon{font-size:26px;line-height:44px;margin-top:52px;color:#405275;}
+article #hero #heroShow{height:760px;width: 100%;}
+article #hero #heroShow #heroPicIntro{width: 100%;height:200px;background-image: -webkit-linear-gradient(left,
+	rgba(42,55,81,0),
+	rgba(42,55,81,.8)25%,
+	rgba(42,55,81,.8)75%,
+	rgba(42,55,81,0));
+position:relative;}
+article #hero #heroShow #heroPicIntro #changePic{height:400px;position:absolute;top:-100px;left:40%;}
+article #hero #heroShow #heroPicIntro #heroDes{display:block;width: 418px;text-align:center;height:80px;position:absolute;left:55%;top:25px;font-size:70px;color:#fff;text-shadow: 2px 2px 4px #333;line-height: 80px;}
+article #hero #heroShow #heroPicIntro #heroIntro{display:block;width: 418px;text-align:center;font-size:16px;line-height:20px;color:#fff;position:absolute;left:55%;top:125px;}
+article #hero #heroShow #heroPor{height:300px;padding-top:118px;width: 1170px;margin:0 auto;text-align:center;}
+article #hero #heroShow #herohead{float:left;width: 70px;height: 110px;margin-right:10px;margin-bottom:40px;position:relative;}
+article #hero #heroShow .heroheadPic{background:#474747;height:79px;width: 70px;overflow:hidden;border:1px solid #000;transform:skew(-0.19rad);border-radius:6px;cursor:pointer;position:absolute;top:0;}
+article #hero #heroShow .heroheadPic img{width: 80px;height: 80px;transform:skew(0.19rad)}
+article #hero #heroShow #herohead .heroheadwd{width: 70px;height:20px;text-align:center;border-radius:5px;position:absolute;top:83px;right:5px;}
+
+article .black{height:400px;}
+
+article #need{padding-left:50%;padding-top:50px;height:450px;background:url(../images/1%2Fassets%2Fimg%2Fbg-museum.jpg) no-repeat;background-size:100% 650px;position:relative;}
+article #need .pic{width:587px;height:600px;position:absolute;bottom:0px;left:10%;background:url(../images/128Q2hX4DRTIiAAAAABJRU5ErkJggg==.png) no-repeat center;background-size:cover;}
+article #need .need{font-size: 60px;color:#384E6F;line-height:80px;width: 400px;text-align:center;text-shadow:2px 2px 2px #666;}
+article #need .now{font-size:26px;color:#384E6F;width: 400px;text-align:center;height:60px;line-height:60px;}
+article #need .nowBuy{margin:0 auto;width: 197px;height: 50px;text-align:center;line-height:50px;background:#FF9C00;margin-top:20px;border-radius:3px;cursor:pointer;color:#fff;font-size:26px;font-weight:800;}
+article #need .nowBuy:hover{background:#FFB033;}
+/*768的pad底部上的立即购买*/
+article .padBuy{display:none;height:540px;text-align:center;padding:44px 30px;background:rgb(243,241,245);}
+article .padBuy>h2{width:100%;height:74px;margin-bottom:44px;text-shadow:0 4px 5px rgba(60,72,96,.5);font-size:3.6rem;font-style: italic;color:rgb(60,92,136);font-weight:400;}
+article .padBuy .padBg{background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fdorado-tablet.jpg) no-repeat top;background-size:cover;width:100%;min-height:17rem;position:relative;}
+article .padBuy .padBg .padPeople{position:absolute;bottom:0;background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fwidowmaker-default-tablet.png) no-repeat center;height:110%;width:100%;background-size:auto 100%;}
+article .padBuy .padWd{background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fgame-bg-tablet.png) no-repeat top;background-size:cover;width:100%;height:153px;padding:40px 14px 0;}
+article .padBuy .padWd>p{line-height:2.47rem;font-size:2rem;color:rgb(64,82,117);}
+.phoneExcessive{display:none;background: linear-gradient(180deg,rgba(251,230,233,0)0,#fbe6e9);width:100%;height:100px;}
+/* article end */
+
+/* footer begin */
+/* footer end */
+
+/* section end */
+
+/*1300兼容*/
+@media screen and (max-width:1300px) {
+   header{background:none;}
+   header{height:645px;background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fanniversary%2Fhomepage-header-mobile-bg.jpg) no-repeat center;background-size:cover;}
+   header .newsBest{position:absolute;bottom:20px;left:0;height:20%;width:95%;overflow:hidden;}
+   header .newsBest .flex-item{display:flex;justify-content:flex-end;height:100%;}
+   header .newsBest .flex-item img{height:100%;}
+   article .bg{background-color:#DBDFEA;}
+   article .news #newsCon{width:95%;margin:0 auto;}
+   article .news #newsCon #pic{width:50%;box-sizing:border-box;float:left;margin:0;padding:0;margin-bottom: 15px;padding: 0 .8333%;}
+   article .news #newsCon #pic img{width:100%;height:height:200px;}
+   article .news #newsCon #pic i{width:100%;display:block;box-sizing:border-box;}
+   article #hero{height:1100px;text-align:center;}
+   article #hero #heroShow{height:560px;width: 100%;}
+   article #hero #heroShow #heroPor{padding:90px 90px 0;width:100%;max-width:1024px;box-sizing:border-box;}
+   article #need .pic{width:50%;height:158%;background:url(../images/yU3we4Xmc3AP6hJ1dvf3d1dQPg+p0BAPxgDw4EAAAAAID8XxtBVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVpDw4JAAAAAAT9f+0IKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFwB174Zg9GBL2EAAAAASUVORK5CYII=.png) no-repeat top;background-size:cover;}
+   article .future ul.futrueWd{width:100%;margin:0 auto;height: 80%;font-size:20px;text-align:center;color:#fff;text-shadow: 2px 2px 2px #333;line-height:55px;}
+
+}
+
+@media screen and (max-width:768px) {
+   article .bg{height:100%;width:100%;position:fixed;bottom:0;left:0;background:none;}
+   header{height:551px;background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fanniversary%2Fhomepage-header-mobile-bg.jpg) no-repeat center;background-size:cover;}
+   article .news{height:380px;}
+   article .news #newsCon{width:95%;margin:0 auto;height:145px;}
+   article .news #newsCon #pic{width:50%;box-sizing:border-box;float:left;margin:0;padding:0;margin-bottom: 15px;padding: 0 .8333%;height:145px;}
+   article .news #newsCon #pic img{width:100%;height:100%;}
+   article .news #newsCon #pic i{width:100%;display:block;box-sizing:border-box;}
+   article #hero{height:789px;text-align:center;}
+   article #hero #heroWd{padding-top:20px;height:210px;}
+   article #hero #heroWd #heroCon{margin-top:20px;}
+   article #hero #heroShow{height:560px;width: 100%;}
+   article #need .pic{width:50%;height:158%;background:url(../images/yU3we4Xmc3AP6hJ1dvf3d1dQPg+p0BAPxgDw4EAAAAAID8XxtBVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVpDw4JAAAAAAT9f+0IKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFwB174Zg9GBL2EAAAAASUVORK5CYII=.png) no-repeat top;background-size:cover;}
+   article .future{width:100%;height:934px;background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fcairo-tablet.jpg) no-repeat top #E5E0E7;}
+   article .future ul.futrueWd{padding-top:330px;width:100%;line-height:2rem;height:550px;color:#405275;text-shadow:none;}
+   article .future ul.futrueWd>i{font-size:2.4rem;text-align:center;}
+   article .future .search{margin:0 auto;width: 197px;height: 50px;text-align:center;line-height:50px;background:#FF9C00;margin-top:-20px;border-radius:3px;cursor:pointer;color:#fff;font-size:26px;font-weight:800;}
+   article #hero #heroShow #heroPicIntro{display:none;}
+   article #hero #heroShow #heroPor{padding:0px 60px 0;width:100%;box-sizing:border-box;}
+   article .black{display:none;}
+   article #need{display:none;}
+   article .padBuy{display:block;}
+
+}
+
+@media screen and (max-width:414px) {
+   header{display:block}
+   .flex-item{flex-grow: 0;}
+   header .newsBest{width:100%;padding:0;}
+   header .newsBest .flex-item img{padding:0;}
+   article .black{display:none;}
+   article #need{display:none;}
+   article .padBuy{display:block;}
+   article .news{display:block;width:100%;height:664px;background:rgb(251,230,233);}
+   article .news #newsCon{height:470px;}
+   article .news #newsCon #pic{position:relative;width:auto;height:230px;display: block;}
+   article .news #newsCon #pic img{width:100%;height:100%;}
+   article .news .lookNews{margin-top:25px;}
+   .futrue{background-size: contain;}
+   
+   article #pic{width:371px;height:242px;}
+   article .future{background-size:100%;}
+   article .future ul.futrueWd{padding-top:50%;}
+   article .future .search{margin-top:80px;}
+   article #hero{height:1600px;padding:44px 0;background: #FBE6E9 url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fcandy (1).png) no-repeat top center;background-size:cover;}
+   article #hero #heroWd{width:100%;height:330px;}
+   article #hero #heroWd #heroCon{font-size:1.3rem;line-height:1.3;padding:0 20px;}
+   
+   article #heroi{margin-bottom:100px;}
+   article #hero #heroShow #heroPor{padding:0 85px;}
+   article .padBuy .padWd{background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fgame-bg-mobile.png) no-repeat 0 bottom;}
+   article .padBuy{background:#FBE6E9;}
+   article .padBuy .padWd>p{font-size:1.5rem;}
+   .phoneExcessive{display:block;}
+}
+
+@media screen and (max-width:375px) {
+   header{display:block;}
+   article #hero #heroShow #heroPor{padding:0 60px;}
+}
+@media screen and (max-width:320px) {
+   header{display:block;}
+   article #hero{height:2200px;}
+}

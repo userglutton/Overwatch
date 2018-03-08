@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body,header,ul,ol,li,p,dl,dt,dd,input,form,h1,h2,h3,h4,h5,h6,video,i {margin: 0; padding: 0;}
+img {border: none;}
+ul {list-style: none;}
+li {list-style: none;}
+body {font-size: 12px;line-height: 1.7em;}
+a {text-decoration: none; color: #000;}
+input:focus {outline: none}
+.fl { float: left}
+.fr {float: right}
+.abs {position: absolute}
+.rel {position: relative}
+.clear {clear: both;height: 0;overflow: hidden;}
+/* section begin */
+
+/* header begin */
+header{height:784px;width:100%;position:relative;}
+
+header .covervid-wrapper { 
+position: absolute; 
+top: -70px; 
+left: 0;
+width: 100%;
+z-index: -999;
+margin:0 auto;} 
+header #nav-top{width: 100%;height:35px;background:rgba(0,0,0,.5);padding-top:5px;}
+header #nav-top .navCenter{width: 90%;margin:0 auto;}
+header #nav-top .navCenter .bzLogo{float:left;width: 63px;height: 30px;background:url(../images/jveAJdl8KpNHUTXAAAAAElFTkSuQmCC.png) no-repeat -18px -81px;}
+header #nav-top .navCenter .bzLogo:hover{background:url(../images/jveAJdl8KpNHUTXAAAAAElFTkSuQmCC.png) no-repeat -18px -125px;}
+header nav{position:relative;width: 96%;margin:0 auto;height:60px;background:rgba(48,58,82,0.8);margin-top: 20px;line-height:60px;padding:0 0 0 1%;z-index:9;}
+header nav ul.navList li{float:left;}
+header nav ul.navList li.navLogo{width:245px;height:60px;}
+header nav ul.navList li.navLogo>a{display:block;width:100%;height:100%;background:url(../images/ow-logo-mobile.png) no-repeat center;}
+header nav ul.navList li.nav{font-size:16px;padding:0 20px;}
+header nav ul.navList li.nav:hover{background:#505866;cursor:pointer;}
+header nav ul.navList li.gameA{background:url(../images/1%2Fassets%2Fimg%2Ficons%2Fmenus%2Fcaret-gray.png) no-repeat right center;}
+header nav ul.navList li.gameA:hover .secnav{display:block;}
+header nav ul.navList li.gameA .secnav{display:none;width: 85%;padding-left:15%;position:absolute;left:0;top:60px;background:rgba(48,58,82,0.9);}
+header nav ul.navList li.gameA .secnav li{font-size:12px;}
+header nav ul.navList li.gameA .secnav li a{margin:0 20px;padding-left:10px;}
+header nav ul.navList li.gameA .secnav li a:hover{border-left:1px solid #66D9EF;}
+header nav ul.navList li.gameB{background:url(../images/1%2Fassets%2Fimg%2Ficons%2Fmenus%2Fcaret-gray.png) no-repeat right center;}
+header nav ul.navList li.gameB:hover .secnav{display:block;}
+header nav ul.navList li.gameB .secnav{display:none;width:77%;padding-left:23%;position:absolute;left:0;top:60px;background:rgba(48,58,82,0.9);}
+header nav ul.navList li.gameB .secnav li{font-size:12px;}
+header nav ul.navList li.gameB .secnav li a{margin:0 20px;padding-left:10px;}
+header nav ul.navList li.gameB .secnav li a:hover{border-left:1px solid #66D9EF;}
+header nav ul.navList li.buyWd{float:right;background:#F7931E;padding:0 30px;font-size:16px;}
+header nav ul.navList li.buyWd:hover{background:#FFB033;cursor:pointer;}
+header nav ul.navList a.navWd{color:#fff;}
+header .logo{background:url(../images/esports-ow.png) no-repeat;width: 200px;height: 360px;margin:0 auto;margin-top:50px;}
+
+header .buy{width: 198px;height: 54px;line-height:54px;background:#FF9C00;margin:0 auto;font-size:32px;text-align:center;font-weight:800;border-radius: 3px; cursor: pointer;}
+header .buy:hover{background:#FFB033;cursor:pointer;}
+header .buy a{color:#fff;}
+header .introduce{width: 192px;font-size:16px;font-weight:800;height: 32px;line-height:32px;border:3px solid #fff;text-align:center;margin:0 auto;margin-top:18px;}
+header .introduce a{color:#fff;}
+header .introduce:hover{background:#fff;cursor:pointer;}
+header .introduce:hover .introWd{color:#000;}
+/*手机端遮罩层*/
+.maskLayer{display:none;position:fixed;top:0;left:0;height:100vh;width:100vh;background:rgba(0,0,0,.5);z-index:1;overflow:hidden;}
+
+/*手机端左侧navBar 点击list图标出现*/
+.Navbar-modleContent{width:320px;height:736px;z-index:30;background:#2a3751;position:fixed;z-index:99999999;top:0;left:-320px;bottom:0;overflow-x:hidden;overflow-y:auto;}
+.Navbar-siteMenuLogo{width:160.2px;position:relative;margin:20px auto;text-align:center;}
+.Nav{box-sizing:border-box;}
+.Nav-list{}
+.Nav-item{font-size: inherit;}
+.Nav-link{color: rgba(255,255,255,.85);border-top: 1px solid #313d56;position: relative;display: block;letter-spacing: .05em;padding: 15px 25px;text-align: left;border-left: 4px solid transparent;}
+/*电子竞技的箭头*/
+.u-rotateMinus45{display:inline-block;transform:rotate(-45deg);color: rgba(255,255,255,.85);}
+.Nav-subNav{display:none;list-style:none;margin:0;padding:0;}
+/*二级菜单的箭头*/
+.dropdownIcon{display:inline-block;width:16px;height:16px;margin-left:5px;vertical-align:middle;background:url(../images/jveAJdl8KpNHUTXAAAAAElFTkSuQmCC.png) no-repeat -145px -128px;}
+
+/*点击关闭*/
+.Navbar-modalClose{position:absolute;z-index:31;top:0;left:0;height:48px;width:48px;color:#00aeff;transition:color 200ms,background-color 200ms;cursor:pointer;}
+.Navbar-modalClose span{position:absolute;top:12px;bottom:12px;left:12px;right:12px;width:24px;height:24px;background:url(../images/jveAJdl8KpNHUTXAAAAAElFTkSuQmCC.png) no-repeat -96px -125px;color:#00aeff;}
+/*购买*/
+.u-textCenters{box-sizing:border-box;}
+.btn-orange{box-sizing:border-box;display:block;width:100%;text-align:center;padding:15px 25px;border-left:4px solid transparent;background:#f7931e;line-height:1;font-size:1.3rem;color:rgba(255,255,255,.85);border-top:1px solid #313d56;letter-spacing:.05em;}
+
+
+/*手机端右侧navBar 点击list头像图标出现*/
+.Navbar-modalContent{width:320px;height:736px;z-index:30;background:#151A23;position:fixed;top:0;right:-320px;bottom:0;overflow-x:hidden;overflow-y:auto;font-size:16px;color:#B9BABD;}
+.Navbar-modalContent>a{display:block;box-sizing:border-box;color:#B9BABD;}
+.Navbar-mobileModalLogo{height:80px;color:#00aeff;position:relative;box-sizing:border-box;}
+.Navbar-mobileModalLogo span{position:absolute;top:50%;left:50%;width:89px;height:40px;background:url(../images/jveAJdl8KpNHUTXAAAAAElFTkSuQmCC.png) no-repeat -18px -17px;transform: translate(-50%,-50%);}
+.Navbar-accountDropdownLoggedOut{box-sizing:border-box;border-top: solid 1px rgba(255,255,255,.08);}
+.Navbar-modalSection{padding:20px;}
+
+/*登录按钮*/
+.Navbar-modalSection:first-child{border-top: none;}
+.Navbar-button{width:100%;display:inline-block;background:#0e86ca;border:1px solid #00aeff;padding:8px 50px;text-align:center;cursor:pointer;color:#fff;border-radius:3px;font-size:16px;font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;}
+
+.Navbar-accountDropdownLink{display:flex;flex-direction:row;align-items:center;border-top:1px solid rgba(255,255,255,.08);padding:0 20px;height:44px;line-height:44px;font-size:16px;}
+.Navbar-accountDropdownLinkIcon{display:inline-block;width:1.5em;height:1.5em;margin-right:5px;background:url(../images/jveAJdl8KpNHUTXAAAAAElFTkSuQmCC.png) no-repeat;}
+.Navbar-icon1{background-position:-141px -72px;}
+.Navbar-icon2{background-position:-141px -14px;}
+.Navbar-icon3{background-position: -198px -16px;}
+.Navbar-accountDropdownLinkLabel{display:inline-block;color:#B9BABD;}
+.Navbar-modalContent .Navbar-modalLink{display:flex;flex-direction:row;align-items:center;border-top:1px solid rgba(255,255,255,.08);padding:0 20px;height:44px;}
+
+/*游戏*/
+.Navbar-modalLinkLabel{display:inline-block;line-height:1.4;box-sizing:border-box;}
+.Navbar-gamesExpandable,.Navbar-expandableToggle{position:relative;box-sizing:border-box;}
+.Navbar-expandableToggle{display:flex;flex-direction:row;align-items:center;border-top:1px solid rgba(255,255,255,.07);cursor:pointer;height:44px;line-height:44px;padding:0 20px;}
+.Navbar-expandableLabel{display:inline-block;}
+.Navbar-expandableIcon{width:16px;height:16px;margin-left:5px;background:url(../images/jveAJdl8KpNHUTXAAAAAElFTkSuQmCC.png) no-repeat -145px -126px;}
+
+/*游戏列表*/
+.Navbar-expandableContainer{position:relative;border-top:1px solid rgba(255,255,255,.08);display:none;}
+.Navbar-expandableContent{position:absolute;bottom:0;left:0;right:0;}
+.Navbar-expandableItemImage{background:url(../images/1%2Ffsbnet%2Flogo-mobile-ow.png) no-repeat;margin-right:5px;width:1.5em;height:1.5em;display:inline-block;background-size:cover;}
+.Navbar-expandableItem{display:flex;flex-direction:row;align-items:center;border-top:1px solid rgba(255,255,255,.07);cursor:pointer;height:44px;line-height:44px;padding:0 20px;color: #00aeff;} 
+.Navbar-esportsExpandable{position:relative;}
+.navMobile{display:none;}
+/* header end */
+
+/* footer begin */
+section footer{height:327px;border-top:1px solid #414141; background:#202020;}
+section footer .center{width: 1000px;margin:0 auto;}
+section footer .center .inline{height:67px;padding-top:48px;}
+section footer .center .inline ul{float:left;padding-left:22px;margin-left:10px;margin-right:44px;background:url(../images/jveAJdl8KpNHUTXAAAAAElFTkSuQmCC.png) no-repeat -140px -100px;}
+section footer .center .inline ul a{color:#ccc;}
+section footer .center .inline ul a:hover{color:#fff;}
+section footer .center .con{height: 165px;}
+section footer .center .con ul{float:left;}
+section footer .center .con ul.footBzLogo li.BzH{height:15px;}
+section footer .center .con ul.footWyLogo{margin-left:30px;}
+section footer .center .con ul.footWyLogo li.WyH{height:55px;}
+section footer .center .con ul.police{float:right;width: 594px;}
+section footer .center .con ul.police li.privacy{color:#fff;}
+section footer .center .con ul.police li.privacy a{color:#FFF;margin:0 10px;}
+section footer .center .con ul.police li.myself{margin-top:15px;color:#8F8F8F;}
+section footer .center .con ul.police li.police_hint{height:36px; line-height:36px;margin-top:15px;color:#8F8F8F;line-height:36px;clear:both;}
+section footer .center .con ul.police li.police_hint a{margin-right:10px;}
+section footer .center .hint{height:45px;border-top:1px solid #414141;text-align:center;color:#8F8F8F;line-height:20px;}
+/* footer end */
+
+/* section end */
+
+
+/*1300px兼容*/
+@media screen and (max-width:1300px) {
+    /*logo*/
+    header nav ul.navList li.navLogo{width:58px;height:58px;}
+    header nav ul.navList li.navLogo>a{display:block;width:100%;height:100%;background:url(../images/1%2Fassets%2Fimg%2Fnav-logo-condensed.png) no-repeat center;}
+    header .logo{width:100%;height:149px;margin:0;background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fanniversary%2Flogo-dark-overwatch-text.png) no-repeat center;}
+    header .buy{width:162px;height:36px;font-size:1.6rem;margin-top:12rem;}
+    header .buy>a{font-size:1rem;line-height:2rem;display:block;}
+    header .introduce{width:162px;border:1px solid #fff;}
+    section footer .center{width:100%;}
+}
+@media screen and (max-width:768px) {
+    /*logo*/
+    header nav ul.navList li.navLogo{width:58px;height:58px;}
+    header nav ul.navList li.navLogo>a{display:block;width:100%;height:100%;background:url(../images/1%2Fassets%2Fimg%2Fnav-logo-condensed.png) no-repeat center;}
+    header .logo{width:100%;height:106px;margin:0;background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fanniversary%2Flogo-dark-overwatch-text.png) no-repeat center;}
+    header nav ul.navList li.nav{font-size:0.8rem;padding:0 16px;}
+    header nav ul.navList li.buyWd{float:right;background:#F7931E;padding:0 12px;font-size:0.8rem;}
+    header .buy{width:180px;height:36px;font-size:1.6rem;margin-top:9rem;}
+    header .buy>a{font-size:1rem;height:2rem;line-height:2rem;display:block;color:#000;}
+    header .introduce{width:180px;border:1px solid #fff;font-size:0.9rem;}
+    footer .inline,footer .footBzLogo,footer .footWyLogo,footer .hint{display:none;}
+    section footer .center{width:768px;}
+    section footer{height:358px;width:100%;}
+    section footer .center .con{width:100%;height:125px;padding:50px 0;margin:0;}
+    section footer .center .con .police{padding:0 38px 30px;border-bottom:1px solid #383838;}
+    section footer .center .con ul.police{float:left;width: 594px;}
+}
+@media screen and (max-width:414px) {
+    header nav,header #nav-top .navPc{display:none;}
+    header #nav-top{height:48px;padding:0;}
+    .navMobile{display:block;}
+    header #nav-top .navMobile{height:48px;}
+    header #nav-top .navMobile .leftList{height:48px;width:48px;float:left;background:url(../images/jveAJdl8KpNHUTXAAAAAElFTkSuQmCC.png) no-repeat -188px -67px;}
+    header #nav-top .navMobile .rightList{height:48px;width:48px;float:right;background:url(../images/jveAJdl8KpNHUTXAAAAAElFTkSuQmCC.png) no-repeat -188px -100px;}
+    header #nav-top .navMobile .centerList{display:block;width:126px;margin:0 auto;}
+    header #nav-top .navMobile .centerList img{height:48px;}
+    /*logo*/
+    header .logo{width:80vw;margin:0 auto;background-size:cover;height:65px;}
+    header .buy{margin-top:200px;}
+   .newsBest{padding:0 24px 18px 24px;display:flex;flex-direction:column-reverse;justify-content: space-between;align-items:center;}
+   .goty{width:18vmin;max-width:296px;min-width:140px;padding-top:3.8vw;height:auto;border:none;}   
+   section footer .center .con ul.police{margin-top:50px;}
+   section footer .center{width:100%;}
+   section footer .center .con{width:100%;margin:0;padding:0;box-sizing:border-box;}
+   section footer .center .con ul.police{width:100%;box-sizing:border-box;}
+}
