@@ -22,7 +22,7 @@ window.onload=function(){
 		    var oWelcomePic=document.createElement('img');
 			oWelcome.appendChild(oWelcomePic);
 			oWelcomePic.id="welcomePic";
-			oWelcomePic.src='images/a%2Fimages%2F2016%2F4%2F29%2FB0J1AZ5JXQBC1460168438221.jpg';
+			oWelcomePic.src='images/2FB0J1AZ5JXQBC1460168438221.jpg';
 
 			var oWelcomewd=document.createElement('p');
 			oCon.appendChild(oWelcomewd);
@@ -75,7 +75,7 @@ window.onload=function(){
 			var opic1=document.createElement('img');
 			ochuang.appendChild(opic1);
 			opic1.id="pic1";
-			opic1.src="images/a%2Fimages%2F2017%2F3%2F27%2F1.jpg";
+			opic1.src="images/2F1.jpg";
 
 			var oconwd=document.createElement('ul');
 			oCon.appendChild(oconwd);
@@ -90,7 +90,7 @@ window.onload=function(){
 			var opic2=document.createElement('img');
 			ochuang1.appendChild(opic2);
 			opic2.id="pic2";
-			opic2.src="images/a%2Fimages%2F2017%2F3%2F27%2F安装2.jpg";
+			opic2.src="images/2F2.jpg";
 
 			var oconwd=document.createElement('ul');
 			oCon.appendChild(oconwd);
@@ -104,7 +104,7 @@ window.onload=function(){
 			var opic3=document.createElement('img');
 			ochuang2.appendChild(opic3);
 			opic3.id="pic3";
-			opic3.src="images/a%2Fimages%2F2017%2F3%2F27%2F安装2.jpg";
+			opic3.src="images/2F2.jpg";
 
 			var otitlewd=document.createElement('ul');
 			oCon.appendChild(otitlewd);
@@ -118,7 +118,7 @@ window.onload=function(){
 			var opic4=document.createElement('img');
 			ochuang3.appendChild(opic4);
 			opic4.id="pic4";
-			opic4.src="images/a%2Fimages%2F2017%2F3%2F21%2FOW_U543_03202017.png";
+			opic4.src="images/2FOW_U543_03202017.png";
 
 			var otitlewd=document.createElement('ul');
 			oCon.appendChild(otitlewd);
@@ -137,7 +137,7 @@ window.onload=function(){
 			var opic4=document.createElement('img');
 			ochuang3.appendChild(opic4);
 			opic4.id="pic4";
-			opic4.src="images/a%2Fimages%2F2016%2F12%2F28%2FUUlogo-OWsmall.jpg";
+			opic4.src="images/2FUUlogo-OWsmall.jpg";
 
 
 
@@ -146,7 +146,7 @@ window.onload=function(){
 			oCenter.appendChild(oSitebar);
 			oSitebar.id="sitebar";
 
-			var apic=['a%2Fimages%2F2017%2F9%2F14%2FDevUpdate23-PlayNicePlayFair_OW_Panel-L_260x','a%2Fimages%2F2017%2F9%2F13%2FVirtualTicketNowLive_Blizzard_Thumb_MB_600x300','a%2Fimages%2F2017%2F9%2F13%2FPhysicalGoodies_BA_Thumb_600x300','a%2Fimages%2F2017%2F9%2F12%2FJunkertownBTS_OW_260'];
+			var apic=['2FDevUpdate23-PlayNicePlayFair_OW_Panel-L_260x','2FVirtualTicketNowLive_Blizzard_Thumb_MB_600x300','2FPhysicalGoodies_BA_Thumb_600x300','2FJunkertownBTS_OW_260'];
 				var atitle=['开发者访谈：诚信为本','购买属于你的2017暴雪嘉年华虚拟门票','2017暴雪嘉年华大礼包 现已开售','新地图前瞻：渣客镇'];
 				var atime=['发布日期：2017-09-14','发布日期：2017-09-14','发布日期：2017-09-14','发布日期：2017-09-13'];
 			

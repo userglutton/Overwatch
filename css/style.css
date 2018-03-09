@@ -36,13 +36,13 @@ header nav ul.navList li.navLogo{width:245px;height:60px;}
 header nav ul.navList li.navLogo>a{display:block;width:100%;height:100%;background:url(../images/ow-logo-mobile.png) no-repeat center;}
 header nav ul.navList li.nav{font-size:16px;padding:0 20px;}
 header nav ul.navList li.nav:hover{background:#505866;cursor:pointer;}
-header nav ul.navList li.gameA{background:url(../images/1%2Fassets%2Fimg%2Ficons%2Fmenus%2Fcaret-gray.png) no-repeat right center;}
+header nav ul.navList li.gameA{background:url(../images/2Fcaret-gray.png) no-repeat right center;}
 header nav ul.navList li.gameA:hover .secnav{display:block;}
 header nav ul.navList li.gameA .secnav{display:none;width: 85%;padding-left:15%;position:absolute;left:0;top:60px;background:rgba(48,58,82,0.9);}
 header nav ul.navList li.gameA .secnav li{font-size:12px;}
 header nav ul.navList li.gameA .secnav li a{margin:0 20px;padding-left:10px;}
 header nav ul.navList li.gameA .secnav li a:hover{border-left:1px solid #66D9EF;}
-header nav ul.navList li.gameB{background:url(../images/1%2Fassets%2Fimg%2Ficons%2Fmenus%2Fcaret-gray.png) no-repeat right center;}
+header nav ul.navList li.gameB{background:url(../images/2Fcaret-gray.png) no-repeat right center;}
 header nav ul.navList li.gameB:hover .secnav{display:block;}
 header nav ul.navList li.gameB .secnav{display:none;width:77%;padding-left:23%;position:absolute;left:0;top:60px;background:rgba(48,58,82,0.9);}
 header nav ul.navList li.gameB .secnav li{font-size:12px;}
@@ -114,7 +114,7 @@ header .introduce:hover .introWd{color:#000;}
 /*游戏列表*/
 .Navbar-expandableContainer{position:relative;border-top:1px solid rgba(255,255,255,.08);display:none;}
 .Navbar-expandableContent{position:absolute;bottom:0;left:0;right:0;}
-.Navbar-expandableItemImage{background:url(../images/1%2Ffsbnet%2Flogo-mobile-ow.png) no-repeat;margin-right:5px;width:1.5em;height:1.5em;display:inline-block;background-size:cover;}
+.Navbar-expandableItemImage{background:url(../images/2Flogo-mobile-ow.png) no-repeat;margin-right:5px;width:1.5em;height:1.5em;display:inline-block;background-size:cover;}
 .Navbar-expandableItem{display:flex;flex-direction:row;align-items:center;border-top:1px solid rgba(255,255,255,.07);cursor:pointer;height:44px;line-height:44px;padding:0 20px;color: #00aeff;} 
 .Navbar-esportsExpandable{position:relative;}
 .navMobile{display:none;}
@@ -148,8 +148,8 @@ section footer .center .hint{height:45px;border-top:1px solid #414141;text-align
 @media screen and (max-width:1300px) {
     /*logo*/
     header nav ul.navList li.navLogo{width:58px;height:58px;}
-    header nav ul.navList li.navLogo>a{display:block;width:100%;height:100%;background:url(../images/1%2Fassets%2Fimg%2Fnav-logo-condensed.png) no-repeat center;}
-    header .logo{width:100%;height:149px;margin:0;background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fanniversary%2Flogo-dark-overwatch-text.png) no-repeat center;}
+    header nav ul.navList li.navLogo>a{display:block;width:100%;height:100%;background:url(../images/2Fnav-logo-condensed.png) no-repeat center;}
+    header .logo{width:100%;height:149px;margin:0;background:url(../images/2Flogo-dark-overwatch-text.png) no-repeat center;}
     header .buy{width:162px;height:36px;font-size:1.6rem;margin-top:12rem;}
     header .buy>a{font-size:1rem;line-height:2rem;display:block;}
     header .introduce{width:162px;border:1px solid #fff;}
@@ -158,8 +158,8 @@ section footer .center .hint{height:45px;border-top:1px solid #414141;text-align
 @media screen and (max-width:768px) {
     /*logo*/
     header nav ul.navList li.navLogo{width:58px;height:58px;}
-    header nav ul.navList li.navLogo>a{display:block;width:100%;height:100%;background:url(../images/1%2Fassets%2Fimg%2Fnav-logo-condensed.png) no-repeat center;}
-    header .logo{width:100%;height:106px;margin:0;background:url(../images/1%2Fassets%2Fimg%2Fpages%2Fhome%2Fanniversary%2Flogo-dark-overwatch-text.png) no-repeat center;}
+    header nav ul.navList li.navLogo>a{display:block;width:100%;height:100%;background:url(../images/2Fnav-logo-condensed.png) no-repeat center;}
+    header .logo{width:100%;height:106px;margin:0;background:url(../images/2Flogo-dark-overwatch-text.png) no-repeat center;}
     header nav ul.navList li.nav{font-size:0.8rem;padding:0 16px;}
     header nav ul.navList li.buyWd{float:right;background:#F7931E;padding:0 12px;font-size:0.8rem;}
     header .buy{width:180px;height:36px;font-size:1.6rem;margin-top:9rem;}
